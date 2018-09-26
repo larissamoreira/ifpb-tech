@@ -14,15 +14,17 @@ close.addEventListener('click', function(){
 })
 
 function openTab(evt, tabTitle) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("content-tab");
+
+    var i, tabcontent, tabs;
+    tabcontent = document.querySelectorAll(".content-tab");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tabs = document.querySelectorAll("#tablinks");
+    console.log(tabs[0].classList)
+    for (i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove("active");
     }
     document.getElementById(tabTitle).style.display = "block";
-    evt.currentTarget.className += " active";
+    evt.currentTarget.className = "active";
 }
