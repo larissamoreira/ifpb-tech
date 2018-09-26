@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>J.tech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="hero is-info is-fullheight">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              JAGUARIBE.TECH
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active">
+                Home
+              </a>
+              <a class="navbar-item" href="#teste">
+                Programação
+              </a>
+              <a class="navbar-item">
+                Documentation
+              </a>
+              <span class="navbar-item">
+                <a class="button is-info is-inverted">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">
+          Title
+        </p>
+        <p class="subtitle">
+          Subtitle
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero is-light is-fullheight" id="teste">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          Programação
+        </h1>
+        <h2 class="subtitle">
+          21 a 26 de novembro
+        </h2>
+        <nav class="tabs is-boxed is-centered">
+          <div class="container">
+            <ul>
+              <li id="tablinks">
+                <a onclick="openTab(event, 'Overview')">
+                  <span>Overview</span>
+                </a>
+              </li>
+              <li id="tablinks">
+                <a onclick="openTab(event, 'Details')">
+                  <span>Details</span>
+                </a>
+              </li>
+              <li id="tablinks">
+                <a onclick="openTab(event, 'Specification')">
+                  <span>Specification</span>
+                </a>
+              </li>
+              <li id="tablinks">
+                <a onclick="openTab(event, 'Reviews')">
+                  <span>Reviews</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container section hero is-danger">
+          <div id="Overview" class="content-tab">
+            <div class="tile is-ancestor">
+              <div class="tile is-vertical is-parent">
+                <div class="tile is-child box">
+                  <p class="title">One</p>
+                  <p class="subtitle">What is up?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                    tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+                <div class="tile is-child box">
+                  <p class="title">Two</p>
+                  <p class="subtitle">What is up?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
+                    tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                </div>
+              </div>
+            </div>
+            <div id="Details" class="content-tab" style="display:none">
+              <p>
+                test2<br>
+                Details Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release
+                of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                like
+                Aldus
+                PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="Specification" class="content-tab" style="display:none">
+              <p>
+                test3 <br>
+                Specification Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has
+                been
+                the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release
+                of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                like
+                Aldus
+                PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="Reviews" class="content-tab" style="display:none">
+              <p>
+                test3 <br>
+                Review Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release
+                of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                like
+                Aldus
+                PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
