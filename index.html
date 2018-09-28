@@ -7,6 +7,7 @@
   <title>J.tech</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,8 +22,8 @@
             </a>
             <span class="navbar-burger burger" data-target="navbarMenuHeroB">
               <span>Home</span>
+              <span>Submissões</span>
               <span>Programação</span>
-              <span></span>
             </span>
           </div>
           <div id="navbarMenuHeroB" class="navbar-menu">
@@ -30,11 +31,14 @@
               <a class="navbar-item is-active">
                 Home
               </a>
-              <a class="navbar-item" href="#teste">
+              <a class="navbar-item" href="#submissoes">
+                Submissões
+              </a>
+              <a class="navbar-item" href="#programacao">
                 Programação
               </a>
-              <a class="navbar-item">
-                Documentation
+              <a class="navbar-item" href="#local">
+                Localização
               </a>
             </div>
           </div>
@@ -44,7 +48,7 @@
 
     <div class="hero-body columns">
 
-      <div class="column is-half">
+      <div class="column is-two-fifths">
         <div class="content  has-text-centered">
           <img src="imgs/logo.png" alt="Jaguaribe.Tech">
           <p class="subtitle">
@@ -53,31 +57,51 @@
       </div>
 
 
-      <div class="column is-half flexAligner">
+      <div class="column is-three-fifths flexAligner">
         <img class="casinhas" src="imgs/houses-03.png" alt="Jaguaribe.Tech">
 
       </div>
+    </div>
+  </section>
 
+  <section class="hero is-fullheight has-text-centered verde-azul background-light" id="submissoes">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title has-text-light is-size-3">
+          Aberta a submissão para palestras e minicursos!
+        </h1>
+        <h2 class="button is-primary is-inverted is-outlined is-large">
+          <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScQzKv7rFzMDZDkLuZGiXS29Yz2p2TLWzgU5TdKnQ_HcelVfw/viewform?embedded=true">Submissão de atividade</a>
+        </h2>
+      </div>
+    </div>
+  </section>
 
-
-
+  <!-- SOBRE-->
+  <section class="hero is-light is-fullheight" id="local">
+    <div class="hero-body columns">
+      <div class="column is-half">
+        <img src="imgs/if.JPG" alt="">
+      </div>
+      <div class="column is-half">
+        <h1 class="title">Sobre</h1>
+        <article class="message is-warning">
+          <div class="message-body is-size-4">
+            Conheça o Jaguaribe.Tech, um evento criado para homenagear o nosso bairro através do que nós fazemos de
+            melhor: falar de tecnologia. Com minicursos, palestras e 1 hackaton, a primeira edição do evento vem para
+            dividir o conhecimento além dos muros do IFPB, com toda João Pessoa.
+            Convidamos os amantes de tecnologia para conferir, de 24 a 26 de novembro, a primeira edição do
+            Jaguaribe.Tech
+          </div>
+        </article>
+      </div>
     </div>
   </section>
 
 
-  <section class="hero is-fullheight has-text-centered"> 
-      <div class="container">
-
-        <div class="content">
-            <p class="title">Aberta a submissão para palestras e minicursos!</p>
-            <button class="button is-danger">Submissão de atividade</button>
-        </div>
-      </div>
-  </section>
-
-
   <!-- PROGRAMAÇÃO-->
-  <section class="hero is-light is-fullheight" id="teste">
+  <section class="hero is-warning is-fullheight" id="programacao">
     <div class="hero-body">
 
       <div class="container">
@@ -156,12 +180,6 @@
 
               </div>
             </div>
-
-          </div>
-
-          <!-- Dia 27-->
-          <div id="27" class="content-tab">
-
             <div class="card row is-three-fifths is-centered">
 
               <div class="card-content ">
@@ -173,7 +191,7 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">Programação Pythonica</p>
+                    <p class="title is-4">Palestra 1</p>
                     <p class="subtitle is-6">@johnsmith</p>
                   </div>
                 </div>
@@ -193,25 +211,246 @@
 
           </div>
 
+          <!-- Dia 27-->
+          <div id="27" class="content-tab" style="display: none">
+
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Programação Pythonica</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Programação Pythonica</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Dia 28-->
+          <div id="28" class="content-tab" style="display: none">
+
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Palestra mt massa</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Palestra mt massa</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dia 30-->
+          <div id="29" class="content-tab" style="display: none">
+
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Palestra mt massa</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Palestra mt massa</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dia 30-->
+          <div id="30" class="content-tab" style="display: none">
+
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Palestra mt massa</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+            <div class="card row is-three-fifths is-centered">
+              <div class="card-content ">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Palestra mt massa</p>
+                    <p class="subtitle is-6">@johnsmith</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus nec iaculis mauris.
+                </div>
+
+                <footer class="card-footer">
+                  <p class="card-footer-item">Auditório</p>
+                  <time class="card-footer-item"> 12:00 </time>
+                </footer>
+              </div>
+            </div>
+          </div>
+
 
         </div>
       </div>
   </section>
 
-  <footer class="footer">
-    <div class="columns">
-      <div class="column is-one-fifth">
-        foto
+  <footer class="footer dark-color">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <img src="imgs/logo-ligth-02.png" alt="">
+        </div>
+        <div class="column is-four-fifths is-size-5">
+          <p>
+            Jaguaribe.Tech idealizado por estudantes e professores do <a class="has-text-light" href="https://jgthms.com">
+              IFPB</a>.
+          </p>
+          <br>
+          <p>Instituto Federal da Paraíba <br> Primeiro de Maio, 720 - Jaguaribe, João Pessoa - PB</p>
+        </div>
       </div>
-      <div class="column is-three-fifths">
-        <p>
-          <strong>Jaguaribe.Tech</strong> idealizado por estudantes e professores do <a href="https://jgthms.com"> IFPB</a>.
-        </p>
-        <br>
-        <p>Instituto Federal da Paraíba <br> Primeiro de Maio, 720 - Jaguaribe, João Pessoa - PB</p>
-      </div>
-
     </div>
+
   </footer>
 
   <script src="app.js"></script>

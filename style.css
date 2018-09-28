@@ -1,3 +1,7 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .tabcontent {
     display: none;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
@@ -22,3 +26,46 @@
     justify-content: center;
 }
 
+.laranja {
+    background-color: #F39B13;
+}
+
+.verde-azul {
+    background-color: #48CAB0;
+}
+
+.cor-logo {
+    background-color: #2CC083;
+}
+
+.vermelho {
+    background-color: #E84C3D;
+}
+
+.text-vermelho {
+    color: #E84C3D;
+}
+
+.light-color {
+    background-color: #ECEDEF;
+}
+
+.dark-color {
+    background-color: #36485C;
+    color: white;
+}
+
+.azul {
+    background-color: #3997D7;
+}
+
+.background-light {
+    background-image: url("imgs/padraoSub-01.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: white;
+}

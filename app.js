@@ -1,9 +1,9 @@
-const butao = document.querySelector("#modalteste");
+const button = document.querySelector("#modalteste");
 const modal = document.querySelector("#segunda");
 const close = document.querySelector("#close");
 var html = document.querySelector('html');
 
-/*butao.addEventListener('click', function(){
+/*button.addEventListener('click', function(){
     modal.classList.add("is-active");
     html.classList.add('is-clipped');
 })
@@ -14,7 +14,7 @@ var html = document.querySelector('html');
 })
 */
 function openTab(evt, tabTitle) {
-
+    console.log(tabTitle)
     var i, tabcontent, tabs;
     tabcontent = document.querySelectorAll(".content-tab");
     for (i = 0; i < tabcontent.length; i++) {
@@ -29,4 +29,3 @@ function openTab(evt, tabTitle) {
     evt.currentTarget.className = "active";
 }
 
-openTab(null, 26)
