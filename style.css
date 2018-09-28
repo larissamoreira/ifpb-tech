@@ -11,3 +11,14 @@
 .tabs a.active span {
     border-bottom: 2px solid black;
 }
+
+.casinhas {
+    align-self: flex-end;
+}
+
+.flexAligner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

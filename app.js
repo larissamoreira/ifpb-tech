@@ -3,16 +3,16 @@ const modal = document.querySelector("#segunda");
 const close = document.querySelector("#close");
 var html = document.querySelector('html');
 
-butao.addEventListener('click', function(){
+/*butao.addEventListener('click', function(){
     modal.classList.add("is-active");
     html.classList.add('is-clipped');
 })
 
-close.addEventListener('click', function(){
+/*close.addEventListener('click', function(){
     modal.classList.remove("is-active");
     html.classList.remove('is-clipped');
 })
-
+*/
 function openTab(evt, tabTitle) {
 
     var i, tabcontent, tabs;
@@ -28,3 +28,5 @@ function openTab(evt, tabTitle) {
     document.getElementById(tabTitle).style.display = "block";
     evt.currentTarget.className = "active";
 }
+
+openTab(null, 26)
