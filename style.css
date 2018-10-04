@@ -30,6 +30,9 @@ body{
     background-color: #F39B13;
 }
 
+.nav-colored { background-color: #48CAB0; }
+.nav-transparent { background-color:transparent;}
+
 .verde-azul {
     background-color: #48CAB0;
 }
@@ -38,7 +41,7 @@ body{
     background-color: #2CC083;
 }
 
-.vermelho {
+.vermelho{
     background-color: #E84C3D;
 }
 

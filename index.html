@@ -12,40 +12,39 @@
 </head>
 
 <body>
-  <section class="hero is-light is-fullheight">
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
-              JAGUARIBE.TECH
-            </a>
-            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-              <span>Home</span>
-              <span>Submissões</span>
-              <span>Programação</span>
-            </span>
-          </div>
-          <div id="navbarMenuHeroB" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item is-active">
-                Home
-              </a>
-              <a class="navbar-item" href="#submissoes">
-                Submissões
-              </a>
-              <a class="navbar-item" href="#programacao">
-                Programação
-              </a>
-              <a class="navbar-item" href="#local">
-                Localização
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
 
+  <nav class="navbar is-light is-fixed-top has-navbar-fixed-top" id="myNav">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          JAGUARIBE.TECH
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </span>
+      </div>
+      <div id="navbarMenuHeroB" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#home">
+            Home
+          </a>
+          <a class="navbar-item" href="#submissoes">
+            Submissões
+          </a>
+          <a class="navbar-item" href="#programacao">
+            Programação
+          </a>
+          <a class="navbar-item" href="#local">
+            Localização
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-light is-fullheight" id="home">
     <div class="hero-body columns">
 
       <div class="column is-two-fifths">
@@ -71,8 +70,8 @@
           Aberta a submissão para palestras e minicursos!
         </h1>
         <h2 class="button is-primary is-inverted is-outlined is-large">
-          <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScQzKv7rFzMDZDkLuZGiXS29Yz2p2TLWzgU5TdKnQ_HcelVfw/viewform?embedded=true">Submissão de atividade</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScQzKv7rFzMDZDkLuZGiXS29Yz2p2TLWzgU5TdKnQ_HcelVfw/viewform?embedded=true">Submissão
+            de atividade</a>
         </h2>
       </div>
     </div>
@@ -88,8 +87,8 @@
         <h1 class="title">Sobre</h1>
         <article class="message is-warning">
           <div class="message-body is-size-4">
-            Conheça o Jaguaribe.Tech, um evento criado para homenagear o nosso bairro através do que nós fazemos de
-            melhor: falar de tecnologia. Com minicursos, palestras e 1 hackaton, a primeira edição do evento vem para
+            Conheça o Jaguaribe.Tech, um evento criado por estudantes e professores do IFPB para falar de tecnologia.
+            Com minicursos, palestras e 1 hackaton, a primeira edição do evento vem para
             dividir o conhecimento além dos muros do IFPB, com toda João Pessoa.
             Convidamos os amantes de tecnologia para conferir, de 24 a 26 de novembro, a primeira edição do
             Jaguaribe.Tech
@@ -118,7 +117,7 @@
           <div class="container">
             <ul>
               <li>
-                <a id="tablinks" onclick="openTab(event, '26')">
+                <a id="tablinks" class="active" onclick="openTab(event, '26')">
                   <span>26</span>
                 </a>
               </li>
