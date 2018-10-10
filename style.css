@@ -72,3 +72,8 @@ body{
 a {
     color: black;
 }
+
+.icones {
+    display: flex;
+    justify-content: space-around
+}
