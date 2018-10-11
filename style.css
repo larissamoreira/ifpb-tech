@@ -30,9 +30,6 @@ body{
     background-color: #F39B13;
 }
 
-.nav-colored { background-color: #48CAB0; }
-.nav-transparent { background-color:transparent;}
-
 .verde-azul {
     background-color: #48CAB0;
 }
@@ -43,10 +40,6 @@ body{
 
 .verde {
     background-color: rgb(76, 175, 80);
-}
-
-.amarelo { 
-    background-color: #ffdd5766;
 }
 
 .vermelho{
@@ -84,4 +77,19 @@ a {
 .icones {
     display: flex;
     justify-content: space-around
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
+    border-radius: 10px;
+}
+
+.card-footer {
+    background-color: #E84C3DB3;
+    color: white;
+}
+
+.image img {
+    border-radius: 50px;
 }
