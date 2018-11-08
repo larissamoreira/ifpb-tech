@@ -22,6 +22,10 @@ body{
     align-self: flex-end;
 }
 
+.margin {
+    margin: 20px;
+}
+
 .flexAligner{
     display: flex;
     align-items: center;
@@ -72,6 +76,14 @@ body{
     background-position: center;
 }
 
+
+.background-dark {
+    background-image: url("imgs/pattern\ dark-01.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 a {
     color: black;
 }
@@ -92,6 +104,9 @@ a {
     color: white;
 }
 
-.image img {
-    border-radius: 50px;
+.box {
+    background-color: hsl(171, 100%, 41%);
+    color:#4a4a4a;
+    box-shadow: none;
+    margin: 10px;
 }
