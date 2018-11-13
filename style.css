@@ -94,19 +94,25 @@ a {
 }
 
 .card {
-    margin-bottom: 20px;
     box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
     border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 20px auto;
 }
 
 .card-footer {
-    background-color: #E84C3DB3;
+    /*background-color: #E84C3DB3;*/
     color: white;
+    background-color: #63a59b
 }
 
 .box {
-    background-color: hsl(171, 100%, 41%);
-    color:#4a4a4a;
+    background-color: inherit;
+    color:white;
     box-shadow: none;
-    margin: 10px;
+}
+
+.azul-palestrantes {
+    background-color: #63a59b;
 }
