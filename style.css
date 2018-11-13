@@ -96,9 +96,7 @@ a {
 .card {
     box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
     border-radius: 10px;
-    max-width: 90%;
-    max-height: 90%;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 .card-footer {
