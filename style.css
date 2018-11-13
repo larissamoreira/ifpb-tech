@@ -26,6 +26,10 @@ body{
     margin: 20px;
 }
 
+.is-white {
+    background-color:white;   
+}
+
 .flexAligner{
     display: flex;
     align-items: center;
