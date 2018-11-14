@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+.m-1 {
+    margin: 1rem;
+}
+
 .tabcontent {
     display: none;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
