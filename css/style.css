@@ -1,0 +1,65 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.tabcontent {
+    display: none;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.tabs a.active span {
+    border-bottom: 2px solid black;
+}
+
+.casinhas {
+    align-self: flex-end;
+}
+
+.is-white {
+    background-color:white;   
+}
+
+.dark-color {
+    background-color: #36485C;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+.card {
+    box-shadow: 0 3rem 3rem -1rem rgba(10,10,10,.2);
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.card-footer {
+    /*background-color: #E84C3DB3;*/
+    color: white;
+    background-color: #63a59b
+}
+
+#logo-conductor {
+    width: 65%;
+}
+
+#logo-hostdime {
+    width: 100%;
+}
+
+#logo-mvarandas {
+    width: 35%;
+}
+
+#logo-softcom {
+    width: 100%;
+}
