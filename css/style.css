@@ -67,3 +67,7 @@ a {
 #logo-softcom {
     width: 90%;
 }
+
+#sobre {
+    display: none;
+}
