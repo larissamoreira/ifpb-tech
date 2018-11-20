@@ -1,0 +1,536 @@
+[
+  {
+    "title": "Abertura",
+    "people": [
+      "Neilor César",
+      "Giovanni França",
+      "Luiz Carlos Chaves"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "08:50"
+    }
+  },
+  {
+    "title": "Rede de Sensores Industriais",
+    "people": [
+      "Ruan Delgado (IFPB-CG)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "manhã",
+      "begin": "08:55",
+      "end": "09:45"
+    }
+  },
+  {
+    "title": "FTTH (Fiber-to-the-Home)",
+    "people": [
+      "Leandro Narciso Calado"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "manhã",
+      "begin": "10:15",
+      "end": "11:05"
+    }
+  },
+  {
+    "title": "Transformação Digital: O que o mercado espera de você",
+    "people": [
+      "Leandro Medeiros (HostDime)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "manhã",
+      "begin": "11:10",
+      "end": "12:00"
+    }
+  },
+  {
+    "title": "Certificados Digitais",
+    "people": [
+      "Guido Lemos (UFPB)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "14:20"
+    }
+  },
+  {
+    "title": "Arquitetura de Sistemas de Big Data em ambiente do Google Cloud Platform",
+    "people": [
+      "Ricardo Roberto (UNIPÊ)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "tarde",
+      "begin": "14:25",
+      "end": "15:15"
+    }
+  },
+  {
+    "title": "Deep Learning",
+    "people": [
+      "Thiago Maritan (UFPB)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "tarde",
+      "begin": "15:45",
+      "end": "16:35"
+    }
+  },
+  {
+    "title": "Processo de Desenvolvimento do SUAP",
+    "people": [
+      "Rodrigo Araújo (IFPB-DTI)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 26,
+      "time": "tarde",
+      "begin": "16:40",
+      "end": "17:30"
+    }
+  },
+  {
+    "title": "Desenvolvimento de soluções eficientes utilizando Drones",
+    "people": [
+      "Alisson Brito (UFPB)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 27,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "08:50"
+    }
+  },
+  {
+    "title": "VOIP",
+    "people": [
+      "Paulo Montenegro (Digivox)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 27,
+      "time": "manhã",
+      "begin": "08:55",
+      "end": "09:45"
+    }
+  },
+  {
+    "title": "Mesa Redonda: Os desafios de infraestrutura de TI em uma empresa.",
+    "people": [
+      "Francisco Augusto (Armazém Paraíba)",
+      "Paulo Montenegro (Digivox)",
+      "Leandro Medeiros (HostDime)",
+      "Michel Coura Dias (Pólo de Inovação IFPB)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 27,
+      "time": "manhã",
+      "begin": "10:15",
+      "end": "12:00"
+    }
+  },
+  {
+    "title": "Extremotec: o Polo de Tecnologia de João Pessoa",
+    "people": [
+      "Thiago Lucena (Câmara Municipal)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 27,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "14:20"
+    }
+  },
+  {
+    "title": "Startups",
+    "people": [
+      "Luiz Maurício (UFPB)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 27,
+      "time": "tarde",
+      "begin": "14:25",
+      "end": "15:15"
+    }
+  },
+  {
+    "title": "Mesa Redonda: A chave para se tornar um bom profissional de TI.",
+    "people": [
+      "Ramon Pereira(Conductor)",
+      "Renato Rodrigues (Softcom)",
+      "Daniel Varandas (MVarandas)",
+      "Thiago Lucena (Câmara Municipal)",
+      "Damires Souza (Pólo de Inovação IFPB)"
+    ],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 27,
+      "time": "tarde",
+      "begin": "15:45",
+      "end": "17:30"
+    }
+  },
+  {
+    "title": "IoT: conectando dispositivos com Arduino",
+    "description": "Neste minicurso vamos explorar os conceitos de IoT(Internet das Coisas) enquanto montamos um projeto usando Arduino e sensor ultrassônico para se conectar com o smartphone.",
+    "people": [
+      "Adjamilton Medeiros de Almeida Junior",
+      "Júlio Cézar Côelho Barbosa Torquato"
+    ],
+    "place": "Lab Redes Convergentes",
+    "time": {
+      "date": 28,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "O fantástico mundo da programação",
+    "description": "Ei, você já teve vontade de aprender a programar ou mesmo entender o que um programador faz, mas sente que não sabe por onde começar? Essa é uma oportunidade incrível de entender melhor como funciona o mundo da programação e as inúmeras portas que ele pode abrir pra você. Iremos te mostrar desde conceitos básicos, até estruturas mais usualmente utilizadas, e resolveremos questões de competições juntos. Vem!",
+    "people": [
+      "Maria Janaina Felix Pereira",
+      "Pablo Dias de Figueiredo"
+    ],
+    "place": "Lab 2",
+    "time": {
+      "date": 28,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  },
+  {
+    "title": "PowerShell: Entendendo o poder da linha de comandos do Windows",
+    "description": "Será apresentada a linha de comandos do Windows, sua história, funcionalidades, alguns cmdlets, variáveis e construção de script, incentivando usuários e administradores de rede a se aprofundarem no terminal, com o objetivo de automatizar tarefas e visualizar informações de forma mais eficiente.",
+    "people": [
+      "Miguel Rodrigo Belarmino Cabral",
+      "Edson Luís Vieira de Almeida"
+    ],
+    "place": "Lab 3",
+    "time": {
+      "date": 28,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "AutoCad aplicado a noções de instalações elétricas",
+    "description": "Neste minicurso o participante estará apto a desenvolver desenhos utilizando o AutoCad através de alguns comandos básicos, incluindo colocação de hachuras, cotas, textos, organização por layer, utilização de blocos, além de aprender algumas noções de instalações elétricas prediais para projetar circuitos simples de pequenos cômodos de uma residência.",
+    "people": [
+      "Gabriel de Araújo Lira",
+      "Pedro Henrique Fernandes da Costa"
+    ],
+    "place": "Lab 1",
+    "time": {
+      "date": 28,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "Desvendando o Google Classroom: uma perspectiva prática e objetiva",
+    "description": "Google Classroom é um sistema de gerenciamento de conteúdo para escolas que procuram simplificar a criação, a distribuição e a avaliação de trabalhos.",
+    "people": [
+      "Antonio Sabino Junior"
+    ],
+    "place": "Lab 4",
+    "time": {
+      "date": 28,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "Conhecendo o Universo Linux",
+    "description": "A proposta deste minicurso é apresentar o sistema operacional Linux, mostrando a sua instalação e alguns comandos básicos. A abordagem do minicurso contemplará exposições teóricas acompanhadas de atividades práticas realizadas na distribuição Debian.",
+    "people": [
+      "Camilla Emilly Jácome Ferreir de Figueiredo",
+      "Lucas Carvalho Gonçalves Silva"
+    ],
+    "place": "Lab Redes Convergentes",
+    "time": {
+      "date": 28,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Kung Fu Pandas",
+    "description": "Pandas é uma biblioteca open source que fornece estruturas de dados de alto desempenho e fáceis de usar, assim como ferramentas de análise de dados para a linguagem de programação Python. O Kung Fu (trabalho duro) fica com o Pandas você só tem que saber o que quer fazer. E este é o propósito desse curso, te introduzir no mundo da análise de dados com conceitos básicos.",
+    "people": [
+      "Eliabe Leal De Oliveira",
+      "Neil John Ávila Prado Júnior"
+    ],
+    "place": "Lab 3",
+    "time": {
+      "date": 28,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Testes Automatizados com Selenium",
+    "description": "Minicurso voltado para testes de inserção e recuperação de dados de uma página web por meio de códigos utilizando Selenium WebDriver.",
+    "people": [
+      "Michael Almeida da Franca Monteiro",
+      "Nayanna de Oliveira Silva"
+    ],
+    "place": "Lab 4",
+    "time": {
+      "date": 28,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Desenvolvimento Web com Python e Django",
+    "description": "Django é um framework escrito em Python, gratuito e de código aberto, utilizado para desenvolver aplicações web de forma rápida e limpa.",
+    "people": [
+      "Larissa de Sousa Moreira Gusmão",
+      "Kamila Freitas Porto",
+      "Jaênia Pereira de Sousa"
+    ],
+    "place": "Lab 3",
+    "time": {
+      "date": 28,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  },
+  {
+    "title": "Conhecendo o Vue.js e fazendo Deploy de aplicações front-end na nuvem com Heroku e VPS",
+    "description": "Neste minicurso serão abordados uma série de conceitos importantes acerca do desenvolvimento aplicações web com o framework JavaScript Vue.js e como fazer deploy de aplicações front-end de forma simples via serviços de Cloud como Heroku e VPS.",
+    "people": [
+      "André de Alencar Oliveira da Costa",
+      "Joerverson Santos"
+    ],
+    "place": "Lab 1",
+    "time": {
+      "date": 28,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  },
+  {
+    "title": "Docker. Brincando com containers",
+    "description": "Diferença de VM x Container, histórico, montagem de imagens e containers (criação/exclusão/start/stop) criação de um dockerfile, gerenciamento de containers com interface gráfica.",
+    "people": [
+      "Marcelo Silva dos Santos Junior",
+      "Laryssa Lorena Barbosa"
+    ],
+    "place": "Lab Redes Convergentes",
+    "time": {
+      "date": 29,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "Uma pequena jornada através do GIT",
+    "description": "Olá aventureiros, sabe quando você está desenvolvendo um software e para não perder códigos anteriores acaba salvando os arquivos como 'teste1', 'teste2', 'teste3', e assim sucessivamente? Pois bem, o GIT é uma ferramenta de controle de versão que ajuda a evitar que isto seja feito. Aqui iniciaremos uma jornada pelo GIT, onde será visto como configurar o ambiente, usar o GIT localmente e remotamente e conceito de branch.",
+    "people": [
+      "Talita Valéria Araújo da Matta",
+      "Levy Fagundes Araújo da Matta"
+    ],
+    "place": "Lab 2",
+    "time": {
+      "date": 29,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  },
+  {
+    "title": "Processamento Digital de Imagem utilizando Python e Opencv",
+    "description": "Processamento Digital de Imagem (PDI) usando Opencv com Python.",
+    "people": [
+      "Weslley da Cunha Santos"
+    ],
+    "place": "Lab 3",
+    "time": {
+      "date": 29,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "SDN e Openflow: Abra sua mente para este novo fluxo",
+    "description": "O objetivo deste minicurso é apresentar um breve histórico sobre a arquitetura SDN (Redes definidas por software), a interface Openflow e suas aplicações com uma prática utilizando mininet e POX. Recomendado para alunos da área de TI que já possuam conhecimentos sobre o modelo OSI e funcionamento de protocolos.",
+    "people": [
+      "Weslley da Cunha Santos"
+    ],
+    "place": "Lab 1",
+    "time": {
+      "date": 29,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "Construindo API's de forma ágil com Spring Boot",
+    "description": "O Spring Boot é um projeto da Spring (Framework Java) que veio para facilitar o processo de configuração e publicação de nossas aplicações. A intenção é ter o seu projeto rodando o mais rápido possível e sem complicação.",
+    "people": [
+      "Rafael Albuquerque Cardoso"
+    ],
+    "place": "Lab 4",
+    "time": {
+      "date": 29,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  }, 
+  {
+    "title": "My kid API com Django/Python",
+    "description": "A ideia desse minicurso é explicar o que é como funciona e como criar uma API com Django Rest Framework. Para alcançar esse objetivo iremos explicar as diferenças entre GET - POST - PUT - PATCH - DELETE, e as suas respostas. Esse não é um curso de Django ou Python, mesmo que você não possua conhecimento com essas ferramentas ainda vai entender como API funcionam e quais as melhores praticas para desenvolver uma, entretanto pode não entender completamente o código em si.",
+    "people": [
+      "Renato Cesar Lira Borges",
+      "Eliabe Leal de Oliveira",
+      "Willian Pereira Abdon"
+    ],
+    "place": "Lab Redes Convergentes",
+    "time": {
+      "date": 29,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Git e Github",
+    "description": "Mostraremos os principais conceitos da ferramenta Git e como criar e manipular um repositório remoto no Github através do Git.",
+    "people": [
+      "John Oliver Venâncio de Andrade",
+      "Fabrício Liberato"
+    ],
+    "place": "Lab 2",
+    "time": {
+      "date": 29,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "PWA: O Melhor da Web em uma experiência Mobile",
+    "description": "PWA's são aplicações web que provêm a experiência e vantagens de uma aplicação nativa por meio do uso de padrões e APIs diversas. O curso irá apresentar os principais conceitos e tecnologias utilizadas no desenvolvimento de uma PWA enquanto criamos uma do 0.",
+    "people": [
+      "Aaron Pedro Santana dos Santos"
+    ],
+    "place": "Lab 3",
+    "time": {
+      "date": 29,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "React e Firebase: Do create ao deploy",
+    "description": "Neste minicurso aprenderemos para que serve, onde é usado e como funciona o React e vamos utilizá-lo para criarmos uma aplicação do zero. Somando suas facilidade e rapidez à suite de serviços do Firebase, veremos que o caminho entre o create e o deploy pode ser bem curto.",
+    "people": [
+      "Bruno Hoffman"
+    ],
+    "place": "Lab 1",
+    "time": {
+      "date": 29,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Computação gráfica na web: 2D a 3D",
+    "description": "Aprenda a se expressar, criar experiências 3D interativas, desenvolver jogos etc. Tudo isso na web, utilizando as bibliotecas p5 e Three do JavaScript.",
+    "people": [
+      "João Pedro Albuquerque de Barros"
+    ],
+    "place": "Lab 4",
+    "time": {
+      "date": 29,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Apresentação dos Projetos de Pesquisa e Extensão (Redes de Computadores)",
+    "description": "",
+    "people": [],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 30,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  },
+  {
+    "title": "Challenge Network by Hostdime",
+    "description": "",
+    "people": [],
+    "place": "Lab Redes Convergentes",
+    "time": {
+      "date": 30,
+      "time": "manhã",
+      "begin": "08:00",
+      "end": "12:00"
+    }
+  },
+  {
+    "title": "Apresentação dos Projetos de Pesquisa e Extensão (Sistemas para Internet)",
+    "description": "",
+    "people": [],
+    "place": "Auditório José Marques",
+    "time": {
+      "date": 30,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }, 
+  {
+    "title": "Desafio de Programação",
+    "description": "",
+    "people": [],
+    "place": "Lab 02",
+    "time": {
+      "date": 30,
+      "time": "tarde",
+      "begin": "13:30",
+      "end": "17:30"
+    }
+  }
+]
