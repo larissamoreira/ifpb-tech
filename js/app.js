@@ -23,7 +23,7 @@ function loadProgramacao(programacao) {
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">${p.title}</p>
-                                    <p class="subtitle is-6">${p.people.map(n => `<p class="subtitle is-6 is-marginless">${n}</p>`).join('')}</p>
+                                    <p class="subtitle is-6">${p.people.sort().map(n => `<p class="subtitle is-6 is-marginless">${n}</p>`).join('')}</p>
                                 </div>
                             </div>
                             <div class="content">${p.description || '' }</div>

@@ -299,7 +299,8 @@
     "description": "Minicurso voltado para testes de inserção e recuperação de dados de uma página web por meio de códigos utilizando Selenium WebDriver.",
     "people": [
       "Michael Almeida da Franca Monteiro",
-      "Nayanna de Oliveira Silva"
+      "Nayanna de Oliveira Silva",
+      "José Diêgo Calixto Frasão"
     ],
     "place": "Lab 4",
     "time": {
@@ -317,7 +318,7 @@
       "Kamila Freitas Porto",
       "Jaênia Pereira de Sousa"
     ],
-    "place": "Lab 3",
+    "place": "Lab 2",
     "time": {
       "date": 28,
       "time": "tarde",
@@ -388,7 +389,8 @@
     "title": "SDN e Openflow: Abra sua mente para este novo fluxo",
     "description": "O objetivo deste minicurso é apresentar um breve histórico sobre a arquitetura SDN (Redes definidas por software), a interface Openflow e suas aplicações com uma prática utilizando mininet e POX. Recomendado para alunos da área de TI que já possuam conhecimentos sobre o modelo OSI e funcionamento de protocolos.",
     "people": [
-      "Weslley da Cunha Santos"
+      "Joniogenes De Souza Vicente",
+      "Jorge Gomes"
     ],
     "place": "Lab 1",
     "time": {
@@ -444,10 +446,12 @@
     }
   }, 
   {
-    "title": "PWA: O Melhor da Web em uma experiência Mobile",
-    "description": "PWA's são aplicações web que provêm a experiência e vantagens de uma aplicação nativa por meio do uso de padrões e APIs diversas. O curso irá apresentar os principais conceitos e tecnologias utilizadas no desenvolvimento de uma PWA enquanto criamos uma do 0.",
+    "title": "Entendendo o Behavior Driven Development (BDD)",
+    "description": "Este mini-curso é baseado no “Behavior Driven Development” e constará de uma proposta com debates, reflexões, construções de pensamentos e elaboração de práticas do uso do BDD. É direcionado às pessoas e grupos interessados em desenvolver atividades baseadas neste método para aprendizagens de forma lúdica. Serão abordados alguns pontos como: o que é o Behavior Driven Development, a sua utilização, o seu funcionamento, as vantagens e desvantagens, exemplos de seu uso, entre outros.",
     "people": [
-      "Aaron Pedro Santana dos Santos"
+      "Rayssa Maria Santos de Freitas",
+      "Ana Karina Dunning",
+      "Alber Jonathas Nunes Paz"
     ],
     "place": "Lab 3",
     "time": {
