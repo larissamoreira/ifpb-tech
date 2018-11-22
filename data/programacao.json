@@ -137,7 +137,8 @@
       "Francisco Augusto (Armazém Paraíba)",
       "Paulo Montenegro (Digivox)",
       "Leandro Medeiros (HostDime)",
-      "Michel Coura Dias (Pólo de Inovação IFPB)"
+      "Michel Coura Dias (Pólo de Inovação IFPB)",
+      "Edivaldo Neto (Telly)"
     ],
     "place": "Auditório José Marques",
     "time": {
@@ -176,9 +177,9 @@
   {
     "title": "Mesa Redonda: A chave para se tornar um bom profissional de TI.",
     "people": [
-      "Ramon Pereira(Conductor)",
+      "Ramon Pereira (Conductor)",
       "Renato Rodrigues (Softcom)",
-      "Daniel Varandas (MVarandas)",
+      "Marcus Varandas Filho (MVarandas)",
       "Thiago Lucena (Câmara Municipal)",
       "Damires Souza (Pólo de Inovação IFPB)"
     ],
@@ -502,7 +503,7 @@
     }
   },
   {
-    "title": "Challenge Network by Hostdime",
+    "title": "Challenge Network (Hostdime)",
     "description": "",
     "people": [],
     "place": "Lab Redes Convergentes",
@@ -526,15 +527,15 @@
     }
   }, 
   {
-    "title": "Desafio de Programação",
-    "description": "",
+    "title": "Competição de Programação (Conductor)",
+    "description": "O Desafio de Programaçaão Conductor/IFPB consistirá num conjunto de questões de programação em vários níveis, abrangendo temas como programação básica e geral, resolução de problemas, estruturas de dados, ordenação, matemática, lógica e algoritmos. O desafio terá duração de duas horas e será individual, onde cada candidato poderá resolver as questões nas principais linguagens de programação utilizadas no mercado como C, C++, C++14, C#, Groovy, Java 7, Java 8, Javascript ou Python 3. A ferramenta utilizada para o desafio será o HackerRank, que provê uma IDE para que o candidato possa criar e submeter suas soluções, no entanto isso não impede que o candidato utilize qualquer outra IDE a sua escolha e submeta a solução para o HackerRank avaliar.",
     "people": [],
-    "place": "Lab 02",
+    "place": "Lab 02 e Redes Convergentes",
     "time": {
       "date": 30,
       "time": "tarde",
-      "begin": "13:30",
-      "end": "17:30"
+      "begin": "14:00",
+      "end": "16:00"
     }
   }
 ]

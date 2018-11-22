@@ -8,6 +8,10 @@ body{
     margin: 2rem 0;
 }
 
+.p-2 {
+    padding: 2rem 0;
+}
+
 .tabcontent {
     display: none;
     animation: fadeEffect 1s; /* Fading effect takes 1 second */
