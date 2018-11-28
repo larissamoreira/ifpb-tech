@@ -54,9 +54,9 @@
     }
   },
   {
-    "title": "Certificados Digitais",
+    "title": "Deep Learning",
     "people": [
-      "Guido Lemos (UFPB)"
+      "Thiago Maritan (UFPB)"
     ],
     "place": "Auditório José Marques",
     "time": {
@@ -80,9 +80,9 @@
     }
   },
   {
-    "title": "Deep Learning",
+    "title": "Blockchain",
     "people": [
-      "Thiago Maritan (UFPB)"
+      "Guido Lemos (UFPB)"
     ],
     "place": "Auditório José Marques",
     "time": {
@@ -137,7 +137,7 @@
       "Francisco Augusto (Armazém Paraíba)",
       "Paulo Montenegro (Digivox)",
       "Leandro Medeiros (HostDime)",
-      "Michel Coura Dias (Pólo de Inovação IFPB)",
+      "Michel Coura Dias (Polo de Inovação IFPB)",
       "Edivaldo Neto (Telly)"
     ],
     "place": "Auditório José Marques",
@@ -181,7 +181,7 @@
       "Renato Rodrigues (Softcom)",
       "Marcus Varandas Filho (MVarandas)",
       "Thiago Lucena (Câmara Municipal)",
-      "Damires Souza (Pólo de Inovação IFPB)"
+      "Damires Souza (Polo de Inovação IFPB)"
     ],
     "place": "Auditório José Marques",
     "time": {
@@ -241,6 +241,7 @@
     "description": "Neste minicurso o participante estará apto a desenvolver desenhos utilizando o AutoCad através de alguns comandos básicos, incluindo colocação de hachuras, cotas, textos, organização por layer, utilização de blocos, além de aprender algumas noções de instalações elétricas prediais para projetar circuitos simples de pequenos cômodos de uma residência.",
     "people": [
       "Gabriel de Araújo Lira",
+      "Ramon Carvalho",
       "Pedro Henrique Fernandes da Costa"
     ],
     "place": "Lab 1",
@@ -347,6 +348,7 @@
     "description": "Diferença de VM x Container, histórico, montagem de imagens e containers (criação/exclusão/start/stop) criação de um dockerfile, gerenciamento de containers com interface gráfica.",
     "people": [
       "Marcelo Silva dos Santos Junior",
+      "Bruno da Silva Alencar",
       "Laryssa Lorena Barbosa"
     ],
     "place": "Lab Redes Convergentes",
@@ -376,7 +378,8 @@
     "title": "Processamento Digital de Imagem utilizando Python e Opencv",
     "description": "Processamento Digital de Imagem (PDI) usando Opencv com Python.",
     "people": [
-      "Weslley da Cunha Santos"
+      "Weslley da Cunha Santos",
+      "Mariana Barros da Nóbrega Chagas"
     ],
     "place": "Lab 3",
     "time": {
@@ -504,7 +507,7 @@
   },
   {
     "title": "Challenge Network (Hostdime)",
-    "description": "",
+    "description": "O Challenge Network, proposto pela empresa Hostdime, é uma competição contendo os principais desafios existentes nas áreas de Datacenter, Security e Networking da empresa. Os profissionais da Hostdime estão em busca das \"Melhores Soluções\" para os problemas reais da empresa. Desafios serão elaborados pelos engenheiros e líderes da empresa. Os alunos devem propor soluções para os problemas apresentados. As melhores soluções serão premiadas!",
     "people": [],
     "place": "Lab Redes Convergentes",
     "time": {
